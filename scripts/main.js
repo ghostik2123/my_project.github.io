@@ -44,3 +44,5 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('Secret button not found!'); // Для отладки
   }
 }); 
+
+
