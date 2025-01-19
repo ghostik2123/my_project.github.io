@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function showEasterEggNotification() {
         const notification = document.createElement('div');
         notification.className = 'easter-egg-notification';
-        notification.textContent = '🎉 Поехали! Найдена пасхалка!';
+        notification.textContent = '🎉 Найдена пасхалка! (Поехали!)';
         document.body.appendChild(notification);
 
         setTimeout(() => {

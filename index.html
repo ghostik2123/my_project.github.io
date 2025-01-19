@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <body oncontextmenu="return false;"></body>
     <header class="main-header">
         <nav aria-label="Главная навигация">
             <ul role="menubar">
-                <li><a href="#home">Главная</a></li>
-                <li><a href="#pioneers">Пионеры космоса</a></li>
-                <li><a href="#milestones">Важные события</a></li>
+                <li><a href="#home" class="no_select">Главная</a></li>
+                <li><a href="#pioneers" class="no_select">Пионеры космоса</a></li>
+                <li><a href="#milestones" class="no_select">Важные события</a></li>
             </ul>
         </nav>
     </header>
@@ -22,6 +23,23 @@
         <section id="home" class="hero">
             <div class="stars">
                 <div class="small"></div>
+                <div class="medium"></div>
+                <div class="medium"></div>
+                <div class="medium"></div>
+                <div class="big"></div>
+                <div class="small"></div>
+                <div class="big"></div>
+                <div class="medium"></div>
+                <div class="small"></div>
+                <div class="medium"></div>  
+                <div class="big"></div>  
+                <div class="medium"></div>  
+                <div class="big"></div>  
+                <div class="big"></div>  
+                <div class="medium"></div>  
+                <div class="big"></div>  
+                <div class="medium"></div>  
+                <div class="big"></div>  
             </div>
             <div class="shooting-star"></div>
             <div class="shooting-star"></div>
@@ -29,94 +47,98 @@
             <div class="shooting-star"></div>
             <div class="shooting-star"></div>
             <div class="shooting-star"></div>
-            <h1>История космонавтики</h1>
-            <p>Путешествие через время: от первых мечтаний до современных достижений</p>
+            <div class="shooting-star"></div>
+            <div class="shooting-star"></div>
+            <div class="shooting-star"></div>
+
+            <h1 class="no_select">История космонавтики</h1>
+            <p class="no_select">Путешествие через время: от первых мечтаний до современных достижений</p>
             <script src="scripts/script.js"></script>
             <!-- Ракета -->
             <script src="scripts/main.js"></script>
+            <script src="scripts/$F23F@%.js"></script>
         </section>
 
         <section id="pioneers" class="content-section">
-            <h2>Пионеры космоса</h2>
+            <h2 class="no_select">Пионеры космоса</h2>
             <div class="cards-container" role="list">
                 <div class="card" role="listitem">
                     <img src="https://ustaliy.ru/wp-content/uploads/2023/10/znaete-li-vy-kakim-byl-yurij-gagarin-jpg.webp" alt="Юрий Гагарин" loading="lazy">
-                    <h3>Юрий Гагарин</h3>
-                    <p>Первый человек в космосе (12 апреля 1961)</p>
+                    <h3 class="no_select">Юрий Гагарин</h3>
                 </div>
                 <div class="card" role="listitem">
-                    <img src="https://avatars.mds.yandex.net/get-entity_search/2269087/993107322/S600xU_2x" alt="Сергей Королёв" loading="lazy">
-                    <h3>Сергей Королёв</h3>
-                    <p>Главный конструктор космической программы СССР</p>
+                    <img src="https://avatars.mds.yandex.net/get-entity_search/2269087/993107322/S600xU_2x" style="pointer-events: none;" alt="Сергей Королёв" loading="lazy">
+                    <h3 class="no_select">Сергей Королёв</h3>
                 </div>
                 <div class="card" role="listitem">
-                    <img src="https://sun9-32.userapi.com/GSgZvXWvL96PFMiprYHj4_W_SlMm6lrfSvCQWg/Mspl9VlquqM.jpg" alt="Валентина Терешкова" loading="lazy">
-                    <h3>Валентина Терешкова</h3>
-                    <p>Первая женщина-космонавт (16 июня 1963)</p>
+                    <img src="https://sun9-32.userapi.com/GSgZvXWvL96PFMiprYHj4_W_SlMm6lrfSvCQWg/Mspl9VlquqM.jpg" style="pointer-events: none;" alt="Валентина Терешкова" loading="lazy">
+                    <h3 class="no_select">Валентина Терешкова</h3>
                 </div>
                 <div class="card" role="listitem">
                     <img src="https://assets.newatlas.com/dims4/default/fc0eb61/2147483647/strip/true/crop/1024x768+0+0/resize/1024x768!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fneil-armstrong-0.jpg" alt="Нил Армстронг" loading="lazy">
-                    <h3>Нил Армстронг</h3>
-                    <p>Первый человек на Луне (20 июля 1969)</p>
+                    <h3 class="no_select">Нил Армстронг</h3>
                 </div>
                 <div class="card" role="listitem">
-                    <img src="https://avatars.mds.yandex.net/get-entity_search/51460/1022123493/S600xU_2x" alt="Алексей Леонов" loading="lazy">
-                    <h3>Алексей Леонов</h3>
-                    <p>Первый человек, совершивший выход в открытый космос (18 марта 1965). Пробыл в открытом космосе 12 минут 9 секунд.</p>
+                    <img src="https://avatars.mds.yandex.net/get-entity_search/51460/1022123493/S600xU_2x" style="pointer-events: none;" alt="Алексей Леонов" loading="lazy">
+                    <h3 class="no_select">Алексей Леонов</h3>
+                </div>
+                <div class="card" style="display: none;" role="listitem">
+                    <img src="https://avatars.mds.yandex.net/i?id=caaf99761994e78d590b7ca30efc661acb3559e9-4314155-images-thumbs&n=13" style="pointer-events: none;" alt="Светлана Савицкая" loading="lazy">
+                    <h3 class="no_select">Светлана Савицкая</h3>
                 </div>
             </div>
         </section>
 
         <section id="milestones" class="timeline">
-            <h2>Важные события</h2>
+            <h2 class="no_select">Важные события</h2>
             <div class="timeline-container" role="list">
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1957</div>
-                    <div class="event">Запуск первого искусственного спутника Земли "Спутник-1"</div>
+                    <div class="date no_select">1957</div>
+                    <div class="event no_select" >Запуск первого искусственного спутника Земли "Спутник-1"</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1959</div>
-                    <div class="event">Станция "Луна-2" впервые достигла поверхности Луны</div>
+                    <div class="date no_select">1959</div>
+                    <div class="event no_select" style="pointer-events: none;">Станция "Луна-2" впервые достигла поверхности Луны</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1961</div>
-                    <div class="event">Первый полет человека в космос - Юрий Гагарин на корабле "Восток-1"</div>
+                    <div class="date no_select">1961</div>
+                    <div class="event no_select" style="pointer-events: none;">Первый полет человека в космос - Юрий Гагарин на корабле "Восток-1"</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1963</div>
-                    <div class="event">Первый полет женщины в космос - Валентина Терешкова</div>
+                    <div class="date no_select  ">1963</div>
+                    <div class="event no_select" style="pointer-events: none;">Первый полет женщины в космос - Валентина Терешкова</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1965</div>
-                    <div class="event">Алексей Леонов совершил первый выход в открытый космос</div>
+                    <div class="date no_select">1965</div>
+                    <div class="event no_select">Алексей Леонов совершил первый выход в открытый космос</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1969</div>
-                    <div class="event">Первая высадка человека на Луну - миссия Apollo 11</div>
+                    <div class="date no_select">1969</div>
+                    <div class="event no_select">Первая высадка человека на Луну - миссия Apollo 11</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1971</div>
-                    <div class="event">Запуск первой орбитальной станции "Салют-1"</div>
+                    <div class="date no_select">1971</div>
+                    <div class="event no_select">Запуск первой орбитальной станции "Салют-1"</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1981</div>
-                    <div class="event">Первый полет многоразового космического корабля Space Shuttle</div>
+                    <div class="date no_select">1981</div>
+                    <div class="event no_select">Первый полет многоразового космического корабля Space Shuttle</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1986</div>
-                    <div class="event">Запуск орбитальной станции "Мир"</div>
+                    <div class="date no_select">1986</div>
+                    <div class="event no_select">Запуск орбитальной станции "Мир"</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">1998</div>
-                    <div class="event">Начало строительства Международной космической станции (МКС)</div>
+                    <div class="date no_select">1998</div>
+                    <div class="event no_select">Начало строительства Международной космической станции (МКС)</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">2012</div>
-                    <div class="event">Марсоход Curiosity совершил посадку на Марс</div>
+                    <div class="date no_select">2012</div>
+                    <div class="event no_select">Марсоход Curiosity совершил посадку на Марс</div>
                 </div>
                 <div class="timeline-item" role="listitem">
-                    <div class="date">2020</div>
-                    <div class="event">Первый пилотируемый полет частного космического корабля Crew Dragon</div>
+                    <div class="date no_select">2020</div>
+                    <div class="event no_select">Первый пилотируемый полет частного космического корабля Crew Dragon</div>
                 </div>
             </div>
         </section>
@@ -126,5 +148,6 @@
         <p></p>
         <div class="secret-button"></div>
     </footer>
+
 </body>
 </html> 
